@@ -1,0 +1,19 @@
+{
+  "info": {
+    "name": "Commande"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "plat": {
+      "type": "string"
+    },
+    "proprietaire": {
+      "type": "string"
+    }
+  },
+  "connection": "default",
+  "collectionName": "commandes"
+}

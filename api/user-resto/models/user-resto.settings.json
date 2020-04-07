@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "user_restos",
+  "info": {
+    "name": "UserResto"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "prenom": {
+      "type": "string"
+    },
+    "nom": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "biginteger"
+    },
+    "role": {
+      "type": "string"
+    }
+  }
+}
